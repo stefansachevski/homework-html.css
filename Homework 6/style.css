@@ -32,11 +32,6 @@ p > a:link {
     color: blue;
 }
 
-p > a:active {
-    text-shadow: 3px 3px 3px black;
-    color: blue;
-}
-
 p > a:visited {
     color: darkblue;
 }
@@ -46,10 +41,18 @@ p > a:hover {
     cursor: pointer;
 }
 
-
 p > a:focus {
     text-decoration: underline;
     color: darkgreen;
 }
+
+p > a:active {
+    text-shadow: 3px 3px 3px black;
+    color: blue;
+}
+
+
+
+
 
 
