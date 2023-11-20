@@ -1,0 +1,55 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">);
+* {
+    background-color: lightgrey;
+    color: brown;
+}
+body {
+    font-family: 'Roboto' , sans-serif;
+    letter-spacing: 1px;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: orangered;
+    text-shadow: 2px 2px 5px;
+}
+
+.paragraph-justify::first-letter {
+    font-size: 300%;
+    color: orangered;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+ul > li {
+    color: black;
+}
+
+p > a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+p > a:active {
+    text-shadow: 3px 3px 3px black;
+    color: blue;
+}
+
+p > a:visited {
+    color: darkblue;
+}
+
+p > a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+p > a:focus {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+
