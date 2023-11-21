@@ -1,17 +1,35 @@
 @import url(<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">);
 * {
-    background-color: lightgrey;
     color: brown;
 }
 body {
     font-family: 'Roboto' , sans-serif;
     letter-spacing: 1px;
+    background-color: lightgrey;
 }
 h1 {
     text-align: center;
     font-style: italic;
     color: orangered;
     text-shadow: 2px 2px 5px;
+    background-color: black;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    color: orangered;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: orangered;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 900;
 }
 
 .paragraph-justify::first-letter {
@@ -49,6 +67,29 @@ p > a:focus {
 p > a:active {
     text-shadow: 3px 3px 3px black;
     color: blue;
+}
+
+.footer-site {
+    color: grey;
+    text-align: center;
+    background-color: black;
+}
+
+p {
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+span {
+    height: 70px;
+    width: 150px;
+    margin-right: 30px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border-width: 5px 5px 5px 5px;
+    border-style: dashed;
+    border-color: red;
 }
 
 
