@@ -120,18 +120,18 @@ section {
 
   @media screen and (max-width: 768px) {
     #main-image {
-      order: -1; /* Move the main image to the top on smaller screens */
+      order: -1; 
     }
 
     #sub-images img  {
       width: 100%;
     }
     #logo , nav {
-        flex-direction: column; /* Change flex direction to row for desktop */
+        flex-direction: column; 
         text-align:center;
         font-size: 15px;
     }
     .image {
-        width: 100%; /* Full width for smaller screens */
+        width: 100%; 
       }
 }
