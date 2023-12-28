@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(69, 57, 57);
+}
+
+header {
+    background-color: rgb(42, 36, 36);
+    padding: 20px;
+    color:azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 400px;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px;
+    border-bottom-style:dotted;
+    border-color: rgb(130, 118, 118);
+    padding-top: 5px;
+  }
+
+  section img {
+    width: 100%;
+    height: auto;
+  }
+
+  #sub-images {
+    padding-top: 5px;
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #sub-images img {
+    width: 50%;
+    object-fit: cover; 
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  section {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  section {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #fff;
+  }
+ p {
+    color: #fff;
+ }
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .image {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid white;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    #main-image {
+      order: -1; /* Move the main image to the top on smaller screens */
+    }
+
+    #sub-images img  {
+      width: 100%;
+    }
+    #logo , nav {
+        flex-direction: column; /* Change flex direction to row for desktop */
+        text-align:center;
+        font-size: 15px;
+    }
+    .image {
+        width: 100%; /* Full width for smaller screens */
+      }
+}
