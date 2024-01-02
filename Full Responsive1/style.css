@@ -107,6 +107,54 @@ section {
   .description {
     margin-top: 10px;
   }
+
+  .desktop-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.desktop-paragraphs {
+    width: 60%; /* Adjust as needed */
+}
+
+.desktop-images {
+    width: 38%; /* Adjust as needed */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desktop-images img {
+    width: 48%; /* Adjust as needed */
+    margin: 5px;
+}
+
+.button {
+  padding: 3px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 70px;
+}
   footer {
     background-color: #333;
     color: #fff;
@@ -117,21 +165,31 @@ section {
     width: 100%;
   }
 
-
   @media screen and (max-width: 768px) {
     #main-image {
-      order: -1; /* Move the main image to the top on smaller screens */
+      order: -1; 
     }
 
     #sub-images img  {
       width: 100%;
     }
     #logo , nav {
-        flex-direction: column; /* Change flex direction to row for desktop */
+        flex-direction: column; 
         text-align:center;
         font-size: 15px;
     }
-    .image {
-        width: 100%; /* Full width for smaller screens */
-      }
+    .desktop-section {
+      flex-direction: column;
+  }
+
+  .desktop-images {
+      width: 100%;
+  }
+
+  .desktop-images img {
+      width: 100%;
+  }
+  .photo {
+    max-width: 100%;
+  }
 }
