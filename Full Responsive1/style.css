@@ -116,17 +116,17 @@ section {
 }
 
 .desktop-paragraphs {
-    width: 60%; /* Adjust as needed */
+    width: 60%; 
 }
 
 .desktop-images {
-    width: 38%; /* Adjust as needed */
+    width: 38%; 
     display: flex;
     flex-wrap: wrap;
 }
 
 .desktop-images img {
-    width: 48%; /* Adjust as needed */
+    width: 48%; 
     margin: 5px;
 }
 
